@@ -30,9 +30,10 @@ button {
   border-color: #454545;
   border-radius: 8px;
   background-color: #555; 
-  animation: portalEffect 5s ease-in-out infinite;
   -webkit-transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
     transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
+  animation: portalEffect 5s ease-in-out infinite;
+  
 }
 
 button:hover {
