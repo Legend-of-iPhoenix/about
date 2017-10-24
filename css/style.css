@@ -1,6 +1,6 @@
 :root {
-  --height-rand: 50px;
-  --width-rand: 50px;
+  var(--height-rand): 50px;
+  var(--width-rand): 50px;
 }
 
 * {
