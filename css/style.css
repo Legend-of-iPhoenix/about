@@ -3,6 +3,9 @@
   color: #888;
   text-shadow: 1px 1px 1px #000000;
   font-family: 'Lato', sans-serif;
+  
+  --height-rand: 50px;
+  --width-rand: 50px;
 }
 .progress-bar {
     background-color: #333;
@@ -41,6 +44,9 @@ button:hover {
   background-color: #fff; 
   
   animation: portalEffect2 5s linear infinite;
+  
+  width: var(--width-rand);
+  height: var(--height-rand);
 }
 
 
@@ -65,25 +71,23 @@ button:hover {
 @keyframes portalEffect2 {
   20% {
     background-color: #b76dba;
-    width: 100px;
-    height 50px;
   }
-  33% {
+  40% {
     background-color: #7841a3;
     width 90px;
     height: 75px;
   }
-  66% {
+  60% {
     background-color: #7f38bc;
     width: 80px;
     height: 90px;
   }
-  75% {
+  80% {
     background-color: #ae7dd8;
     width: 90px;
     height: 80px;
   }
-  90% {
+  100% {
     background-color: #823d89;
     width: 110px;
     height: 50px;
