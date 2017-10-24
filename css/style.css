@@ -1,5 +1,8 @@
-body {
-  background: #444;
+* {
+  background: #454545;
+  color: #888;
+  text-shadow: 1px 1px 1px #000000;
+  font-family: 'Lato', sans-serif;
 }
 .progress-bar {
     background-color: #333;
@@ -18,4 +21,18 @@ body {
     background-color: green;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width .5s ease-in-out;    
+}
+
+button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #555; 
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  box-shadow: 3px 3px 3px #222, 0 1px 0 #666;
+  background-color: #fff; 
 }
