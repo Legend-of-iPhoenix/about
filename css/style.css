@@ -1,0 +1,21 @@
+body {
+  background: #444;
+}
+.progress-bar {
+    background-color: #333;
+    height: 25px;
+    padding: 5px;
+    width: 350px;
+    margin: 50px 0;         
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #222 inset, 0 1px 0 #666;           
+}
+
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    background-color: green;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .5s ease-in-out;    
+}
