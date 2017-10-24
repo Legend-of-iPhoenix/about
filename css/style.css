@@ -28,7 +28,7 @@ button {
   height: 20px;
   border: none;
   background-color: #555; 
-  animation: portalEffect 5s cubic-bezier(0.5, 0.2, 0.3, 1.0) infinite;
+  animation: portalEffect 5s ease-in-out infinite;
   -webkit-transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
     transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
 }
