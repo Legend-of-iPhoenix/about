@@ -37,8 +37,12 @@ button {
   background-color: #555; 
   -webkit-transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
     transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
-  animation: portalEffect 5s linear infinite;
+  /*animation: portalEffect 5s linear infinite;*/
   
+}
+
+#button {
+  animation: portalEffect 5s linear infinite;
 }
 
 button:hover {
