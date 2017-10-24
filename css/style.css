@@ -28,11 +28,35 @@ button {
   height: 20px;
   border: none;
   background-color: #555; 
-  -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+  animation: portalEffect 5s cubic-bezier(0.5, 0.2, 0.3, 1.0) infinite;
+  -webkit-transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
+    transition: background-color 0.4s ease 0s, width 5s ease-in-out 0.4s, height 5s ease-in-out 0.4s;
 }
 
 button:hover {
   box-shadow: 3px 3px 3px #222, 0 1px 0 #666;
   background-color: #fff; 
+  
+  width: 100%;
+  height: 100vh;
+}
+
+
+@keyframes portalEffect {
+  20% {
+    background-color: #b76dba;
+  }
+  33% {
+    background-color: #7841a3;
+  }
+  66% {
+    background-color: #7f38bc;
+  }
+  75% {
+    background-color: #ae7dd8;
+  }
+  90% {
+    background-color: #823d89;
+  }
+  
 }
