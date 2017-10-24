@@ -1,4 +1,4 @@
-setInterval(function() {
+window.setInterval(function() {
   var random1 = 50 + Math.floor(Math.random() * 50);
   var random2 = 50 + Math.floor(Math.random() * 50);
   
