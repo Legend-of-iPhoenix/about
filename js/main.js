@@ -1,4 +1,5 @@
 window.setInterval(function() {
+  alert('test');
   var random1 = 50 + Math.floor(Math.random() * 50);
   var random2 = 50 + Math.floor(Math.random() * 50);
   
