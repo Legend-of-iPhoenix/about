@@ -39,8 +39,7 @@ button:hover {
   box-shadow: 3px 3px 3px #222, 0 1px 0 #666;
   background-color: #fff; 
   
-  width: 100%;
-  height: 100vh;
+  animation: portalEffect2 5s ease-in-out infinite;
 }
 
 
@@ -59,6 +58,30 @@ button:hover {
   }
   90% {
     background-color: #823d89;
+  }  
+}
+
+@keyframes portalEffect2 {
+  20% {
+    background-color: #b76dba;
+    width: 100px;
   }
-  
+  33% {
+    background-color: #7841a3;
+    height: 75px;
+  }
+  66% {
+    background-color: #7f38bc;
+    width: 80px;
+  }
+  75% {
+    background-color: #ae7dd8;
+    width: 90px;
+    height: 80px;
+  }
+  90% {
+    background-color: #823d89;
+    width: 110px;
+    height: 50px;
+  }  
 }
