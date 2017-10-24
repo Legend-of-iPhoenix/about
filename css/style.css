@@ -1,11 +1,13 @@
+:root {
+  --height-rand: 50px;
+  --width-rand: 50px;
+}
+
 * {
   background: #454545;
   color: #888;
   text-shadow: 1px 1px 1px #000000;
   font-family: 'Lato', sans-serif;
-  
-  --height-rand: 50px;
-  --width-rand: 50px;
 }
 .progress-bar {
     background-color: #333;
