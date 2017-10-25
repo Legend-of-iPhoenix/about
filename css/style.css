@@ -45,7 +45,7 @@ button:hover {
   animation: portalEffect2 5s linear infinite;
 }
 
-socialBlock {
+.socialBlock {
     background-color: #333;
     height: 25px;
     padding: 5px;
