@@ -1,104 +1,124 @@
-
-
-* {
-  background: #454545;
-  color: #888;
-  text-shadow: 1px 1px 1px #000000;
-  font-family: 'Lato', sans-serif;
-}
-.progress-bar {
-    background-color: #333;
-    height: 25px;
-    padding: 5px;
-    width: 350px;
-    margin: 50px 0;         
-    border-radius: 5px;
-    box-shadow: 0 1px 5px #222 inset, 0 1px 0 #666;           
+*
+{
+	background:#454545;
+	color:#888;
+	text-shadow:1px 1px 1px #000;
+	font-family:'Lato',sans-serif
 }
 
-.progress-bar span {
-    display: inline-block;
-    height: 100%;
-    border-radius: 3px;
-    background-color: green;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
-    transition: width .5s ease-in-out;    
+.progress-bar
+{
+	background-color:#333;
+	height:25px;
+	padding:5px;
+	width:350px;
+	margin:50px 0;
+	border-radius:5px;
+	box-shadow:0 1px 5px #222 inset,0 1px 0 #666
 }
 
-button:not(.socialBlock) {
-  width: 20px;
-  height: 20px;
-  border-width: 1px;
-  border-color: #454545;
-  border-radius: 8px;
-  background-color: #555; 
-  -webkit-transition: background-color 0.4s ease 0s, width 0.5s ease-in-out 0.4s, height 0.5s ease-in-out 0.4s;
-    transition: background-color 0.4s ease 0s, width 0.5s ease-in-out 0.4s, height 0.5s ease-in-out 0.4s;
-  animation: portalEffect 5s linear infinite;
+.progress-bar span
+{
+	display:inline-block;
+	height:100%;
+	border-radius:3px;
+	background-color:green;
+	box-shadow:0 1px 0 rgba(255,255,255,.5) inset;
+	transition:width .5s ease-in-out
 }
 
-button:hover:not(.socialBlock) {
-  border-width: 1px;
-  border-color: #454545;
-  border-radius: 8px;
-  box-shadow: 3px 3px 3px #222, 0 1px 0 #666;
-  background-color: #fff; 
-  
-  animation: portalEffect2 5s linear infinite;
+button:not(.socialBlock)
+{
+	width:20px;
+	height:20px;
+	border-width:1px;
+	border-color:#454545;
+	border-radius:8px;
+	background-color:#555;
+	-webkit-transition:background-color .4s ease 0s,width .5s ease-in-out 0.4s,height .5s ease-in-out .4s;
+	transition:background-color .4s ease 0s,width .5s ease-in-out 0.4s,height .5s ease-in-out .4s;
+	animation:portalEffect 5s linear infinite
 }
 
-.socialBlock {
-    display: inline-block;
-    background-color: #666;
-    height: 50px;
-    padding: 5px;
-    width: auto;
-    margin: 50px 0;         
-    border-radius: 5px;
-    box-shadow: 0 1px 5px #222 inset, 0 1px 0 #666; 
+button:hover:not(.socialBlock)
+{
+	border-width:1px;
+	border-color:#454545;
+	border-radius:8px;
+	box-shadow:3px 3px 3px #222,0 1px 0 #666;
+	background-color:#fff;
+	animation:portalEffect2 5s linear infinite
+}
+
+.socialBlock
+{
+	display:inline-block;
+	background-color:#666;
+	height:50px;
+	padding:5px;
+	width:auto;
+	margin:50px 0;
+	border-radius:5px;
+	box-shadow:0 1px 5px #222 inset,0 1px 0 #666
 }
 
 @keyframes portalEffect {
-  20% {
-    background-color: #b76dba;
-  }
-  33% {
-    background-color: #7841a3;
-  }
-  66% {
-    background-color: #7f38bc;
-  }
-  75% {
-    background-color: #ae7dd8;
-  }
-  90% {
-    background-color: #823d89;
-  }  
+	20%
+	{
+		background-color:#b76dba
+	}
+	
+	33%
+	{
+		background-color:#7841a3
+	}
+	
+	66%
+	{
+		background-color:#7f38bc
+	}
+	
+	75%
+	{
+		background-color:#ae7dd8
+	}
+	
+	90%
+	{
+		background-color:#823d89
+	}
 }
 
 @keyframes portalEffect2 {
-  20% {
-    background-color: #b76dba;
-  }
-  40% {
-    background-color: #7841a3;
-    width 90px;
-    height: 75px;
-  }
-  60% {
-    background-color: #7f38bc;
-    width: 80px;
-    height: 90px;
-  }
-  80% {
-    background-color: #ae7dd8;
-    width: 90px;
-    height: 80px;
-  }
-  100% {
-    background-color: #823d89;
-    width: 110px;
-    height: 50px;
-    
-  }  
+	20%
+	{
+		background-color:#b76dba
+	}
+	
+	40%
+	{
+		background-color:#7841a3;
+		height:75px
+	}
+	
+	60%
+	{
+		background-color:#7f38bc;
+		width:80px;
+		height:90px
+	}
+	
+	80%
+	{
+		background-color:#ae7dd8;
+		width:90px;
+		height:80px
+	}
+	
+	100%
+	{
+		background-color:#823d89;
+		width:110px;
+		height:50px
+	}
 }
