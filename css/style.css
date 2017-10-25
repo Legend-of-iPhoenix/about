@@ -49,7 +49,7 @@ button:hover:not(.socialBlock) {
 
 .socialBlock {
     display: inline-block;
-    background-color: #333;
+    background-color: #666;
     height: 50px;
     padding: 5px;
     width: auto;
