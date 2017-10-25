@@ -1,21 +1,22 @@
-<!DOCTYPE html>
+
+<!--<!DOCTYPE html>-->
 <html>
 <head>
   <meta charset="UTF-8">
   <title>About _iPhoenix_</title>
       <link rel="stylesheet" href="css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-  <script src="js/main.js"></script>
+  <!--<script src="js/main.js"></script>--> 
 </head>
 <body>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <h1>Hello, and welcome to the official site of _iPhoenix_.</h1>
   <p>My current projects are below.</p>
-  <p>To see completed projets, hover over the portal below. </p> <button id="button" onmouseover="randEverySec"></button>
+  <p>To see completed projets, hover over the portal below. </p> <button id="button" onmouseover="randEverySec(this)" onmouseout="killRandChange(this)"></button>
   
   <br />
   <br />
-  <div id="projects">
+  <div id="projects" style="display: block;">
     <h3> Project #1 </h3>
     <h6> 50% done. </h6>
     <p> Lorem Ipsum...</p>
@@ -36,6 +37,8 @@
 
 <footer>
   <p> Site designed and written by _iPhoenix_ </p>
+  <h5> Social: </h5>
+  <p> <a href="https://www.cemetech.net/forum/profile.php?mode=viewprofile&u=17249">Cemetech</a> <a href="https://www.youtube.com/channel/UCytgMNPxAMDsxjimvxHf01w">Youtube</a> <a href="https://github.com/Legend-of-iPhoenix">GitHub</a> </p>
   <p> v00.00.01 beta </p>
 </footer>
 </html>
