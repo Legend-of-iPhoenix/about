@@ -1,6 +1,6 @@
 :root {
-  --height-rand: 50;
-  --width-rand: 50;
+  --height-r: 50;
+  --width-r: 50;
 }
 
 * {
@@ -51,8 +51,8 @@ button:hover {
   
   animation: portalEffect2 5s linear infinite;
   
-  width: var(--width-rand)px;
-  height: var(--height-rand)px;
+  width: var(--width-r)px;
+  height: var(--height-r)px;
 }
 
 
