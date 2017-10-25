@@ -4,7 +4,7 @@ function randEverySec() {
       var random2 = 50 + Math.floor(Math.random() * 50);
   
       var button = document.querySelector('#button');
-      button.style.setProperty('--width-r', random1 +"px");
-      button.style.setProperty('--height-r', random2 +"px");
+      button.style.width = random1 + "px";
+      button.style.height = random1 + "px";
    } , 500);
 }
