@@ -34,12 +34,8 @@ button {
   background-color: #555; 
   -webkit-transition: background-color 0.4s ease 0s, width 0.5s ease-in-out 0.4s, height 0.5s ease-in-out 0.4s;
     transition: background-color 0.4s ease 0s, width 0.5s ease-in-out 0.4s, height 0.5s ease-in-out 0.4s;
-  /*animation: portalEffect 5s linear infinite;*/
-  
-}
-
-#button {
   animation: portalEffect 5s linear infinite;
+  
 }
 
 button:hover {
@@ -49,6 +45,15 @@ button:hover {
   animation: portalEffect2 5s linear infinite;
 }
 
+socialBlock {
+    background-color: #333;
+    height: 25px;
+    padding: 5px;
+    width: auto;
+    margin: 50px 0;         
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #222 inset, 0 1px 0 #666; 
+}
 
 @keyframes portalEffect {
   20% {
