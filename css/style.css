@@ -38,6 +38,9 @@ button:not(.socialBlock) {
 }
 
 button:hover:not(.socialBlock) {
+  border-width: 1px;
+  border-color: #454545;
+  border-radius: 8px;
   box-shadow: 3px 3px 3px #222, 0 1px 0 #666;
   background-color: #fff; 
   
