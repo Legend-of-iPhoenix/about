@@ -6,5 +6,5 @@ function randEverySec() {
       var button = document.querySelector('#button');
       button.style.setProperty('--width-r', random1 +"px");
       button.style.setProperty('--height-r', random2 +"px");
-   } , 1000);
+   } , 500);
 }
