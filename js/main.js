@@ -11,7 +11,6 @@ function randEverySec(button) {
       var random2 = 10 * (5 - Math.floor(Math.random() * 10));
       
       
-      //the following works, but it doesn't 
       button.style.width = clamp(button.style.width + random1, 20, 100) + "px";
       button.style.height = clamp(button.style.height + random2, 20, 100) + "px";
       
