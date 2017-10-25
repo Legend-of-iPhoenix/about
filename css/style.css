@@ -32,8 +32,8 @@ button {
   border-color: #454545;
   border-radius: 8px;
   background-color: #555; 
-  -webkit-transition: background-color 0.4s ease 0s, width 2s ease-in-out 0.4s, height 2s ease-in-out 0.4s;
-    transition: background-color 0.4s ease 0s, width 2s ease-in-out 0.4s, height 2s ease-in-out 0.4s;
+  -webkit-transition: background-color 0.4s ease 0s, width 0.5s ease-in-out 0.4s, height 0.5s ease-in-out 0.4s;
+    transition: background-color 0.4s ease 0s, width 0.5s ease-in-out 0.4s, height 0.5s ease-in-out 0.4s;
   /*animation: portalEffect 5s linear infinite;*/
   
 }
