@@ -6,6 +6,13 @@
 	font-family:'Lato',sans-serif
 }
 
+.socialLink
+{
+	text-shadow:1px 1px 1px #000;
+	font-family:'Lato',sans-serif;
+	font-weight: 300;
+}
+
 .progress-bar
 {
 	background-color:#333;
