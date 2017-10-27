@@ -1,8 +1,11 @@
 var id = null;
 
-//Thanks, stack overflow, for providing me with a much faster version of what I was going to do.
 function clamp(num, min, max) {
-  return num <= min ? min : num >= max ? max : num;
+  if (num < min)
+    num = min;
+  if (num > max)
+    num = max;
+  return num;
 }
 
 function randEverySec(button) {
