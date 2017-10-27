@@ -37,7 +37,7 @@ function change()
 }
 
 function toggleDiv(id) {
-    var items = document.getElementsById(id);
+    var items = document.getElementById(id);
     for (var i = 0, len = arr.length; i < len; i++) {
       var div = items[i];
       div.style.display = div.style.display == "none" ? "block" : "none";
