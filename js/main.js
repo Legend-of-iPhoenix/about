@@ -17,6 +17,7 @@ function randEverySec(button) {
    } , 500);
   }
 function killRandChange(button) {
+  console.log("1");
   window.clearInterval(id);
   button.style.width = 20 +"px"; 
   button.style.height = 20 +"px";
