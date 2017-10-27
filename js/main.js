@@ -37,6 +37,9 @@ function change()
 }
 
 function toggleDiv(id) {
-    var div = document.getElementById(id);
-    div.style.display = div.style.display == "none" ? "block" : "none";
+    var items = document.getElementsById(id);
+    for (var i = 0, len = arr.length; i < len; i++) {
+      var div = items[i];
+      div.style.display = div.style.display == "none" ? "block" : "none";
+    }
 }
